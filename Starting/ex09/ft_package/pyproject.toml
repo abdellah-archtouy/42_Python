@@ -1,0 +1,16 @@
+[project]
+name = "ft_package"
+version = "0.0.1"
+description = "A sample test package"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+authors = [
+  { name = "aarchtou", email = "aarchtou@1337.ma" }
+]
+classifiers = [
+]
+
+[project.urls]
+homepage = "https://github.com/aarchtou/ft_package"
