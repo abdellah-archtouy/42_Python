@@ -1,7 +1,9 @@
 import sys
 
+
 def is_odd(number: int) -> bool:
     return number % 2 != 0
+
 
 def main():
     if len(sys.argv) < 2:
@@ -20,5 +22,5 @@ def main():
         sys.exit(1)
     sys.exit(0)
 
-main()
 
+main()

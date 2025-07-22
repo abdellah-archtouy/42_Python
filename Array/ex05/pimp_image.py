@@ -1,6 +1,7 @@
 import numpy as np
 from PIL import Image
 
+
 def ft_invert(array) -> np.ndarray:
     """
     Invert the colors of the image represented by the 3D numpy array.
@@ -12,6 +13,7 @@ def ft_invert(array) -> np.ndarray:
     img.show()
     return inverted
 
+
 def ft_red(array) -> np.ndarray:
     """
     Extract the red channel from the image represented by the 3D numpy array.
@@ -22,6 +24,7 @@ def ft_red(array) -> np.ndarray:
     img = Image.fromarray(red.astype(np.uint8))
     img.show()
     return red
+
 
 def ft_green(array) -> np.ndarray:
     """
@@ -36,6 +39,7 @@ def ft_green(array) -> np.ndarray:
     img.show()
     return green
 
+
 def ft_blue(array) -> np.ndarray:
     """
     Extract the blue channel from the image represented by the 3D numpy array.
@@ -48,6 +52,7 @@ def ft_blue(array) -> np.ndarray:
     img = Image.fromarray(blue)
     img.show()
     return blue
+
 
 def ft_grey(array) -> np.ndarray:
     """

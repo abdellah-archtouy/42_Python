@@ -1,5 +1,5 @@
 def all_thing_is_obj(object: any) -> int:
-    
+
     if isinstance(object, list):
         print("List : <class 'list'>")
     elif isinstance(object, tuple):
@@ -12,5 +12,4 @@ def all_thing_is_obj(object: any) -> int:
         print(f"{object} is in the kitchen : <class 'str'>")
     else:
         print("Type not found$")
-    return  42
-
+    return 42

@@ -22,9 +22,6 @@ by cropping the center,
         assert img.size[0] >= 400 and img.size[1] >= 400, \
             "The image must be at least 400x400 pixels."
 
-        width, height = img.size
-        center_x, center_y = width // 2, height // 2
-
         zoomed_img = img.crop((450, 100, 850, 500))
         gray_zoomed = zoomed_img.convert("L")
         zoomed_array = np.array(gray_zoomed)
@@ -32,8 +29,6 @@ by cropping the center,
         print(f"New shape after slicing: {zoomed_array.shape}\
 or {zoomed_img.size}")
         print(zoomed_array)
-
-        img_array = np.array(img)
         plt.imshow(zoomed_array, cmap='gray')
         plt.title("Zoomed Image")
         plt.axis('on')
