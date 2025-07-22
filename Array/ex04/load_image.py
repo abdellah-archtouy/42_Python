@@ -21,8 +21,8 @@ file (.jpg, .jpeg, .png)."
             "AssertionError: The array must be 3-dimensional."
         assert arr.shape[2] == 3, \
             "AssertionError: The array must have 3 channels (RGB)."
-        print(f"The shape of image is: {arr.shape}")
-        print(arr[:1])
+        # print(f"The shape of image is: {arr.shape}")
+        # print(arr[:1])
         return img
     except AssertionError as e:
         print(e)

@@ -23,6 +23,7 @@ file (.jpg, .jpeg, .png)."
             "AssertionError: The array must have 3 channels (RGB)."
         print(f"The shape of image is: {arr.shape}")
         print(arr[:1])
-        return img
+        img.show()
+        return arr
     except AssertionError as e:
         print(e)
