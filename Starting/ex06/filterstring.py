@@ -15,8 +15,6 @@ def main():
             raise "bad  argument"
         text = str(sys.argv[1]).split()
         size = int(sys.argv[2])
-        # print(text)
-        # print(size)
         last_list = ft_filter(lambda word: my_len(word, size), text)
         print(list(last_list))
     except Exception as e:
