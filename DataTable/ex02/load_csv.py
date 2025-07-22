@@ -3,8 +3,8 @@ import pandas as pd
 
 def load(path: str) -> pd.DataFrame:
     """
-    Load a CSV file from the specified path and return it as \
-a pandas DataFrame.
+    Load a CSV file from the specified path and return it as\
+ a pandas DataFrame.
     :param path: Path to the CSV file.
     :return: DataFrame containing the data from the CSV file.
     """
