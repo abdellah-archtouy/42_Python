@@ -24,6 +24,10 @@ def convert_to_float(values):
 
 def main():
 
+    """
+    Program to plot population progression in Morocco and France.
+    """
+
     try:
         df = load("population_total.csv")
         assert isinstance(df, pd.DataFrame), \
