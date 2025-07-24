@@ -1,5 +1,5 @@
 class calculator:
-    
+
     def dotproduct(V1: list[float], V2: list[float]) -> None:
         """Calculates the dot product of two vectors."""
         if len(V1) != len(V2):
@@ -24,6 +24,6 @@ class calculator:
 
 a = [5, 10, 2]
 b = [2, 4, 3]
-calculator.dotproduct(a,b)
-calculator.add_vec(a,b)
-calculator.sous_vec(a,b)
+calculator.dotproduct(a, b)
+calculator.add_vec(a, b)
+calculator.sous_vec(a, b)
